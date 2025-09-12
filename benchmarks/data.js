@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755487116564,
+  "lastUpdate": 1757638366030,
   "repoUrl": "https://github.com/Anatolek-AZ/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -104,6 +104,58 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.33949999999999997,
             "extra": "15105 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1441508c00842ab406cdf84e426bf15b57e4e1fb",
+          "message": "Merge pull request #186 from czlonkowski/1.110.1\n\nchore: update n8n dependencies to 1.110.1",
+          "timestamp": "2025-09-10T00:16:35+02:00",
+          "tree_id": "b38518935cfa6bc68b6481ec5bf6ed775df14584",
+          "url": "https://github.com/Anatolek-AZ/n8n-mcp/commit/1441508c00842ab406cdf84e426bf15b57e4e1fb"
+        },
+        "date": 1757638365662,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0196,
+            "range": "0.43770000000000003",
+            "unit": "ms",
+            "extra": "51008 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.2108,
+            "range": "0.7465999999999999",
+            "unit": "ms",
+            "extra": "311 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.2741",
+            "unit": "ms",
+            "extra": "211932 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0673,
+            "range": "0.3976",
+            "unit": "ms",
+            "extra": "14864 ops/sec"
           }
         ]
       }
